@@ -51,13 +51,10 @@ class App extends Component {
           >
            Winn Casino
           </a>
-          <ul className="navbar-nav px-3">
-            <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
-              <small className="text-white">
-                <span>{this.state.account}</span>
-              </small>
-            </li>
-          </ul>
+          <ul class="nav navbar-nav navbar-right">
+      <li>
+          <a href="#"><span ></span>{this.state.account}</a></li>
+    </ul>
         </nav>
             </div>
         );
