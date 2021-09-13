@@ -1,0 +1,116 @@
+<nav class="main-menu-wrap global-head__nav">
+			<div id="nav__side-drawer-button" class="global-head__nav__side-drawer__button hidden-lg-up">
+				<button
+					class="global-head__nav__side-drawer__button__button"
+					type="button"
+					aria-label="Toggle navigation menu"
+				>
+					
+				</button>
+			</div>
+						<div id="logo" class="global-head__logo"><a id="nav-home" href="/">PlayNow</a></div>
+						<div class="main-menu-wrap global-head__nav__menu-wrap hidden-md-down">
+				<ul id="main-menu" class="main-menu global-head__nav__menu">
+
+					
+					<li id="nav-lottery" class="global-head__nav__menu__top-level">
+						<a href="/lottery/">Lottery</a>
+											</li>
+
+					
+					<li id="nav-keno" class="global-head__nav__menu__top-level">
+						<a href="/keno/">Keno</a>
+											</li>
+
+					
+					<li id="nav-instants" class="global-head__nav__menu__top-level">
+						<a href="/instants/">Instants</a>
+											</li>
+
+					
+					<li id="nav-casino" class="global-head__nav__menu__top-level global-head__nav__menu__top-level_active">
+						<a href="https://winntoken.com">Casino</a>
+												<ul class="global-head__nav__menu__child casino-navbar">
+						<li class="nh cat-featured active"><a class="casinotab" href="/casino/#featured">Featured</a></li>
+								<li class="nh cat-a---z"><a class="casinotab" href="/casino/#a---z">A - Z</a></li>
+								<li class="nh cat-new-games"><a class="casinotab" href="/casino/#new-games">New Games</a></li>
+								<li class="nh cat-slots"><a class="casinotab" href="/casino/#slots">Slots</a></li>
+								<li class="nh cat-blackjack"><a class="casinotab" href="/casino/#blackjack">Blackjack</a></li>
+								<li class="nh cat-jackpots"><a class="casinotab" href="/casino/#jackpots">Jackpots</a></li>
+								<li id="nav-casino-pb" class="nh"><a href="/casino/powerbucks/">Powerbucks</a></li>
+								<li class="nh cat-instants"><a class="casinotab" href="/casino/#instants">Instants</a></li>
+								<li class="nh cat-tables"><a class="casinotab" href="/casino/#tables">Tables</a></li>
+								<li class="nh cat-free-spin-slots"><a class="casinotab" href="/casino/#free-spin-slots">Free Spin Slots</a></li>
+								<li class="nh cat-video-poker"><a class="casinotab" href="/casino/#video-poker">Video Poker</a></li>
+				<li class="global-head__nav__menu__child__show-overflow hidden nh"><a class="dropdown-top no-link">More</a>
+		<ul class="global-head__nav__menu__child__overflow"></ul>
+	</li>
+		<li class="menu-right no-cutoff nh">
+		<form id="search-menu" class="casino-search__wrap">
+			<img class="casino-search__icon font-awesome-icon font-awesome-icon_search" src="/resources/images/icons/font-awesome/solid/search.svg?v=1" alt="search icon"> <input type="search" class="casino-search form-control quick" placeholder="Search casino games" tabindex="0" autocomplete="off" disabled>
+		</form>
+	</li></ul>											</li>
+
+					
+					<li id="nav-live-casino" class="global-head__nav__menu__top-level">
+						<a href="/live-casino/">Live Casino</a>
+											</li>
+
+					
+					<li id="nav-sports" class="global-head__nav__menu__top-level">
+						<a href="/sports/">Sports</a>
+											</li>
+
+					
+
+					
+					<li id="nav-pools" class="global-head__nav__menu__top-level">
+						<a href="/pools/play">Pools</a>
+											</li>
+
+					
+					<li id="nav-poker" class="global-head__nav__menu__top-level">
+						<a href="/poker/">Poker</a>
+											</li>
+
+					
+					<li id="nav-bingo" class="global-head__nav__menu__top-level">
+						<a href="/bingo/">Bingo</a>
+											</li>
+
+					
+					
+					
+					<li id="nav-articles" class="hidden-lg-up global-head__nav__menu__top-level global-head__nav__menu__top-level_minor">
+						<a href="/articles/">Articles</a>
+					</li>
+
+					
+					<li id="nav-promos" class="global-head__nav__menu__top-level global-head__nav__menu__top-level_minor">
+						<a href="/promotions/">Promotions</a>
+					</li>
+
+					
+					<li id="nav-winners" class="hidden-lg-up global-head__nav__menu__top-level global-head__nav__menu__top-level_minor">
+						<a href="/winners/">Winners</a>
+					</li>
+				</ul>
+				<button id="show-menu" class="global-head__nav__show-menu" type="button" aria-expanded="false">
+					<span class="hidden-xs">More</span>
+					<span class="name hidden-sm-up">Menu</span>
+					<span class="opened hidden-sm-up">Menu</span>
+					<span class="caret"></span>
+				</button>
+			</div>
+			<ul id="user-login" class="global-head__nav__account show">
+				<li><a id="nav-rgstr" href="/register/" class="global-head__nav__account__register btn btn-primary">Sign Up <img src="/resources/images/icons/font-awesome/arrow-right-solid.svg?v=1" alt="" class="global-head__nav__account__register__arrow"></a></li>
+				<li><a id="login-btn" href="/login/?depositSetup=true" class="global-head__nav__account__login btn btn-white">Log in</a></li>
+			</ul>
+			<div id="user-acct" class="global-head__nav__user-account">
+				<div id="user-controls"></div>
+			</div>
+		</nav>
+
+
+
+		https://www.playnow.com/resources/images/icons/bars-solid.svg?v=1
