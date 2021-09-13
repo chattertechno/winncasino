@@ -1,0 +1,94 @@
+.global-head__nav {
+    align-content: stretch;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: flex-start;
+    line-height: 1.77777777em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.global-head__nav__side-drawer__button {
+    align-items: center;
+    display: flex;
+    width: 33%;
+    height: 100%;
+}
+
+.global-head__logo {
+    align-self: auto;
+    flex: 0 1 auto;
+    margin: 0;
+    order: 1;
+    padding: 0;
+    height: 100%;
+}
+.global-head__nav__side-drawer__hamburger {
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 26px
+}
+.global-head__logo {
+    align-self: auto;
+    flex: 0 1 auto;
+    margin: 0;
+    order: 1;
+    padding: 0;
+    height: 100%
+}
+.global-head__logo a {
+    background: url(https://playnow.com/resources/images/global/logo_PlayNow2.svg?v=1) center center/96px no-repeat;
+    display: block;
+    font-size: 0;
+    width: 124px;
+    height: 100%
+}
+@media (max-width:991px) {
+    .global-head__logo {
+        display: flex;
+        justify-content: center;
+        width: 33%
+    }
+
+    .global-head__logo a {
+        background-size: 64px
+    }
+}
+.global-head__logo a:hover {
+    margin-top: -1px
+}
+@media (max-width:991px) {
+    .global-head__nav__side-drawer__hamburger {
+        margin-left: 16px
+    }
+
+    .global-head_register .global-head__logo {
+        justify-content: flex-start
+    }
+}
+@media (max-width:543px) {
+    .user-controls__button {
+        padding: 6px 12px
+    }
+
+    body.account-menu-open.touch {
+        overflow-y: scroll
+    }
+
+    body.account-menu-open.touch #body,
+    body.account-menu-open.touch #footer {
+        display: none
+    }
+
+    body.account-menu-open #body,
+    body.account-menu-open .global-head__logo,
+    body.account-menu-open .global-head__nav__side-drawer__button,
+    body.account-menu-open footer {
+        opacity: .3;
+        pointer-events: none
+    }
+}

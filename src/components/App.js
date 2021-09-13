@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './app.css';
 import Web3 from "web3";
 
 class App extends Component {
@@ -42,20 +43,24 @@ class App extends Component {
     render() {
         return ( 
             <div>
-                <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-          <a
-            className="navbar-brand col-sm-3 col-md-2 mr-0"
-            href="http://www.winntoken.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           Winn Casino
-          </a>
-          <ul class="nav navbar-nav navbar-right">
-      <li>
-          <a href="#"><span ></span>{this.state.account}</a></li>
-    </ul>
-        </nav>
+                <nav class="main-menu-wrap global-head__nav">
+			<div id="nav__side-drawer-button" class="global-head__nav__side-drawer__button hidden-lg-up">
+				<button
+					class="global-head__nav__side-drawer__button__button"
+					type="button"
+					aria-label="Toggle navigation menu"
+				>
+                    <img
+						src="https://www.playnow.com/resources/images/icons/bars-solid.svg?v=1"
+						width="131"
+						height="150"
+						class="global-head__nav__side-drawer__hamburger"
+						alt=""
+					></img>
+                </button>
+            </div>
+            <div id="logo" class="global-head__logo"><a id="nav-home" href="/">WinnToken</a></div>
+                </nav>
             </div>
         );
     }
